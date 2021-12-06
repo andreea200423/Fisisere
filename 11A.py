@@ -20,7 +20,7 @@ with open("germana.txt", "w") as g:
             g.write(str(i)+"\n")
             for a in i.split():
                 if a.isdigit():
-                    z.append(int(a))
+                    p.append(int(a))
     g.write("nota medie a clasei germane e: "+ str(round(sum(p)/len(p), 2)))
 with open("engleza.txt", "w") as e:
     v=[]
